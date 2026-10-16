@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tabcomb"
+version = "1.0.0"
+description = "Comb: a tabular in-context classifier whose training set you can edit exactly (add, forget, merge)."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "LICENSE-tabicl"]
+authors = [{ name = "Markus Herre" }]
+requires-python = ">=3.10"
+keywords = ["tabular", "in-context learning", "foundation model", "classification", "scikit-learn", "machine unlearning"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.4",
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "scikit-learn>=1.6",
+    "pandas>=2.0",
+    "huggingface_hub>=0.23",
+    "safetensors>=0.4",
+]
+
+[project.optional-dependencies]
+# pretraining reproduces bit-exactly only with these pins (the prior's random streams)
+train = ["torch==2.9.1", "numpy==2.5.1", "scipy==1.18.0", "scikit-learn==1.9.0", "threadpoolctl",
+         "wandb>=0.30"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/m-herre/comb"
+Weights = "https://huggingface.co/m-herre/Comb"
+Issues = "https://github.com/m-herre/comb/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["comb"]
+exclude = ["comb/train"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/comb", "/tests", "/README.md", "/LICENSE", "/NOTICE", "/LICENSE-tabicl", "/CITATION.cff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

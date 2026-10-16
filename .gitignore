@@ -1,0 +1,11 @@
+.venv/
+weights/
+__pycache__/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+runs/
+slurm_logs/
+bench/results/*.out
+.venv-bench/

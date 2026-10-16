@@ -1,0 +1,12 @@
+Comb
+Copyright 2026 Markus Herre
+
+This product includes software ported from TabICL (https://github.com/soda-inria/tabicl),
+Copyright (c) 2025, Soda team @ Inria, licensed under the BSD 3-Clause License (see LICENSE-tabicl):
+the network architecture (comb/model.py), the inference preprocessing and ensembling (comb/preprocess.py,
+parts of comb/sklearn.py) and the synthetic-data prior (comb/train/prior.py).
+
+Two Yeo-Johnson helpers in comb/preprocess.py are vendored from SciPy (https://scipy.org), Copyright (c) 2001-2002
+Enthought, Inc. and 2003-2026 SciPy Developers, licensed under the BSD 3-Clause License.
+
+The released weights were trained from scratch with this code on synthetic data only.

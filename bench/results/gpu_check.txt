@@ -1,0 +1,9 @@
+PASS stream (3 adds) vs one-shot: max |d logit|: 0.000e+00 (limit 0.001)
+PASS merge of 2 shards vs one-shot: max |d logit|: 0.000e+00 (limit 0.001)
+PASS forget vs never added: max |d logit|: 0.000e+00 (limit 0.001)
+PASS pickle round trip: max |d proba|: 0.000e+00 (limit 0)
+PASS CUDA pickle loaded without a GPU vs to('cpu'): max |d proba|: 0.000e+00 (limit 1e-06)
+PASS shard.to('cpu') leaves the original on CUDA: max |d proba|: 0.000e+00 (limit 0)
+PASS shard on CPU predicts: 0.000e+00 (limit 0)
+PASS to('cpu').to('cuda') keeps fp16: max |d proba|: 0.000e+00 (limit 0)
+ALL PASS NVIDIA RTX PRO 6000 Blackwell Server Edition

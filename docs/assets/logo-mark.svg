@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Comb">
+  <title>Comb</title>
+  <path d="M64.00,43.00 L82.19,53.50 L82.19,74.50 L64.00,85.00 L45.81,74.50 L45.81,53.50 Z" fill="#f2a516"/>
+  <path d="M57.00,64.00 H71.00 M64.00,57.00 V71.00" stroke="#1c2333" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M102.97,43.00 L121.16,53.50 L121.16,74.50 L102.97,85.00 L84.79,74.50 L84.79,53.50 Z" fill="#1c2333" opacity="0.92"/>
+  <path d="M83.49,76.45 L101.67,86.95 L101.67,107.95 L83.49,118.45 L65.30,107.95 L65.30,86.95 Z" fill="#1c2333" opacity="0.55"/>
+  <path d="M44.51,76.45 L62.70,86.95 L62.70,107.95 L44.51,118.45 L26.33,107.95 L26.33,86.95 Z" fill="#1c2333" opacity="0.78"/>
+  <path d="M25.03,44.60 L41.83,54.30 L41.83,73.70 L25.03,83.40 L8.23,73.70 L8.23,54.30 Z" fill="none" stroke="#1c2333" stroke-width="2.4" stroke-dasharray="4.2 3.4" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M44.51,9.55 L62.70,20.05 L62.70,41.05 L44.51,51.55 L26.33,41.05 L26.33,20.05 Z" fill="#1c2333" opacity="0.35"/>
+  <path d="M83.49,9.55 L101.67,20.05 L101.67,41.05 L83.49,51.55 L65.30,41.05 L65.30,20.05 Z" fill="#1c2333" opacity="0.68"/>
+</svg>

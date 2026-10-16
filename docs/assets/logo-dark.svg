@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 408 120" width="408" height="120" role="img" aria-label="Comb">
+  <title>Comb</title>
+  <rect x="8.00" y="34.00" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.25"/>
+  <rect x="19.50" y="37.96" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.45"/>
+  <rect x="31.00" y="41.92" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.65"/>
+  <rect x="8.00" y="56.00" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.25"/>
+  <rect x="19.50" y="56.00" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.45"/>
+  <rect x="31.00" y="56.00" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.65"/>
+  <rect x="8.00" y="78.00" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.25"/>
+  <rect x="19.50" y="74.04" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.45"/>
+  <rect x="31.00" y="70.08" width="8" height="8" rx="1.6" fill="#e8e6e1" opacity="0.65"/>
+  <path d="M98.00,39.00 L116.19,49.50 L116.19,70.50 L98.00,81.00 L79.81,70.50 L79.81,49.50 Z" fill="#f2a516"/>
+  <path d="M91.00,60.00 H105.00 M98.00,53.00 V67.00" stroke="#1c2333" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M136.97,39.00 L155.16,49.50 L155.16,70.50 L136.97,81.00 L118.79,70.50 L118.79,49.50 Z" fill="#e8e6e1" opacity="0.92"/>
+  <path d="M117.49,72.45 L135.67,82.95 L135.67,103.95 L117.49,114.45 L99.30,103.95 L99.30,82.95 Z" fill="#e8e6e1" opacity="0.55"/>
+  <path d="M78.51,72.45 L96.70,82.95 L96.70,103.95 L78.51,114.45 L60.33,103.95 L60.33,82.95 Z" fill="#e8e6e1" opacity="0.78"/>
+  <path d="M59.03,40.60 L75.83,50.30 L75.83,69.70 L59.03,79.40 L42.23,69.70 L42.23,50.30 Z" fill="none" stroke="#e8e6e1" stroke-width="2.4" stroke-dasharray="4.2 3.4" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M78.51,5.55 L96.70,16.05 L96.70,37.05 L78.51,47.55 L60.33,37.05 L60.33,16.05 Z" fill="#e8e6e1" opacity="0.35"/>
+  <path d="M117.49,5.55 L135.67,16.05 L135.67,37.05 L117.49,47.55 L99.30,37.05 L99.30,16.05 Z" fill="#e8e6e1" opacity="0.68"/>
+  <path d="M221.68,46.99 A17.5,17.5 0 1 0 221.68,73.01 M277.47,60.00 A17.5,17.5 0 1 0 242.47,60.00 A17.5,17.5 0 1 0 277.47,60.00 M292.47,77.50 V55.50 A13.0,13.0 0 0 1 318.47,55.50 V77.50 M318.47,55.50 A13.0,13.0 0 0 1 344.47,55.50 V77.50 M360.47,22.50 V77.50 M360.47,60.00 A17.5,17.5 0 1 1 395.47,60.00 A17.5,17.5 0 1 1 360.47,60.00" fill="none" stroke="#e8e6e1" stroke-width="9.0" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Comb, please cite it as below."
+title: "Comb: a tabular in-context classifier with an exactly editable training set"
+type: software
+authors:
+  - family-names: Herre
+    given-names: Markus
+    affiliation: "Technische Universität Clausthal"
+version: 1.0.0
+date-released: 2026-10-16
+license: Apache-2.0
+repository-code: "https://github.com/m-herre/comb"
+url: "https://huggingface.co/m-herre/Comb"
+keywords: [tabular, in-context learning, foundation model, classification, machine unlearning]
+references:
+  - type: software
+    title: TabICL
+    repository-code: "https://github.com/soda-inria/tabicl"
+    authors:
+      - name: "Soda team @ Inria"
